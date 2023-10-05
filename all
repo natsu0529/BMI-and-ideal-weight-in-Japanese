@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Java Script</title>
+</head>
+
+<body>
+    <script >function BMI (num1,num2){return num1/num2/num2*10000}
+
+function ideal(num3){return num3*num3*22/10000}
+
+const weight =Number(prompt('あなたの体重を教えてください。(kg)'))
+const tall =Number(prompt('あなたの身長を教えてください。(cm)'))
+
+alert('あなたのBMIは'+BMI(weight,tall))
+
+alert('あなたの身長の理想体重は'+ideal(tall))
+</script>
+</body>
+</body>
+
+</html>
